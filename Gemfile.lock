@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/Mic92/mina-sidekiq.git
+  revision: 09dc9b9f861689d5e9a12e4ae3485d2ab33a124a
+  specs:
+    mina-sidekiq (0.2.0)
+      mina
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -46,8 +53,6 @@ GEM
     mina (0.3.0)
       open4
       rake
-    mina-sidekiq (0.1.1)
-      mina
     multi_json (1.7.9)
     open4 (1.3.0)
     polyglot (0.3.3)
@@ -103,7 +108,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mina-sidekiq
+  mina-sidekiq!
   rails (= 3.2.11)
   sidekiq
   sqlite3
