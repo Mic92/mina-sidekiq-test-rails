@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Mic92/mina-sidekiq.git
-  revision: 09dc9b9f861689d5e9a12e4ae3485d2ab33a124a
+  revision: fc71c90d71dbb826c3add01dafff2e97e96e66fd
   specs:
     mina-sidekiq (0.2.0)
       mina
