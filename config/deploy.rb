@@ -13,7 +13,7 @@ set :shared_paths, ['log', 'Gemfile', 'Gemfile.lock', 'sidekiq.yml']
 set :keep_releases, 2
 
 task :environment do
-  invoke :'rvm:use[ruby-2.0.0]'
+  invoke :'rvm:use[ruby-2.1.0]'
 end
 
 task :setup => :environment do
